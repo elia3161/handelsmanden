@@ -8,7 +8,7 @@
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://handelsmanden.dk/">
   <meta property="og:title" content="Handelsmanden.dk – opkøb af brugte maskiner">
-  <meta property="og:description" content="Sælg dine brugte maskiner enkelt og hurtigt. Vi køber fra både private og virksomheder.">
+  <meta property="og:description" content="Sælg dine brugte maskiner enkelt og hurtigt. Send billeder og ønsket pris og få et tilbud.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://handelsmanden.dk/">
   <link rel="stylesheet" href="styles.css">
@@ -34,17 +34,16 @@
       <div class="hero-copy">
         <p class="eyebrow">Opkøb af brugte maskiner</p>
         <h1>Har du maskiner, der skal videre?</h1>
-        <p class="lead">Jeg opkøber brugte maskiner og produktionsudstyr fra både private og virksomheder – fra enkelte maskiner til større partier.</p>
+        <p class="lead">Jeg opkøber brugte maskiner og produktionsudstyr – fra enkelte maskiner til større partier.</p>
         <div class="hero-actions">
           <a class="button primary" href="#kontakt">Få et tilbud</a>
           <a class="button secondary" href="#proces">Se hvordan det foregår</a>
         </div>
       </div>
-      <div class="hero-visual" aria-hidden="true">
-        <div class="industrial-card card-a"><span>SNEDKERI</span></div>
-        <div class="industrial-card card-b"><span>METAL</span></div>
-        <div class="industrial-card card-c"><span>PRODUKTION</span></div>
-      </div>
+      <figure class="hero-machine">
+        <img src="assets/snedkermaskine.svg" alt="Illustration af en brugt snedkermaskine" width="1200" height="800" fetchpriority="high">
+        <figcaption>Brugte maskiner får nyt liv</figcaption>
+      </figure>
     </section>
 
     <section id="opkoeb" class="section section-grid">
@@ -90,7 +89,6 @@
       <div class="section-heading">
         <p class="eyebrow">Enkel handel</p>
         <h2>Sådan foregår det</h2>
-        <p>Fem trin fra henvendelse til afsluttet handel.</p>
       </div>
       <ol class="process-grid">
         <li><span>1</span><div><h3>Send en mail</h3><p>Send billeder af det, du vil sælge, sammen med din ønskede pris.</p></div></li>
@@ -103,14 +101,22 @@
 
     <section id="billeder" class="section gallery-section">
       <div class="section-heading">
-        <p class="eyebrow">Galleri</p>
-        <h2>Et kig på maskinerne</h2>
+        <p class="eyebrow">Maskiner</p>
+        <h2>Et kig på det, jeg handler med</h2>
       </div>
       <div class="machine-gallery">
-        <figure class="placeholder large"><div>Maskinbillede 1</div></figure>
-        <figure class="placeholder"><div>Maskinbillede 2</div></figure>
-        <figure class="placeholder"><div>Maskinbillede 3</div></figure>
-        <figure class="placeholder wide"><div>Maskinbillede 4</div></figure>
+        <figure class="machine-photo large">
+          <img src="assets/snedkermaskine.svg" alt="Snedkermaskine" width="1200" height="800" loading="lazy">
+        </figure>
+        <figure class="machine-photo">
+          <img src="assets/afretter.svg" alt="Træbearbejdningsmaskine" width="1200" height="800" loading="lazy">
+        </figure>
+        <figure class="machine-photo">
+          <img src="assets/drejebaenk.svg" alt="Drejebænk til metalbearbejdning" width="1200" height="800" loading="lazy">
+        </figure>
+        <figure class="machine-photo wide">
+          <img src="assets/fraeser.svg" alt="Fræsemaskine til industribrug" width="1200" height="800" loading="lazy">
+        </figure>
       </div>
     </section>
 
