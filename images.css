@@ -1,8 +1,7 @@
-.brand-logo {
+.brand-full-logo {
   display: block;
-  width: 42px;
-  height: 42px;
-  flex: 0 0 auto;
+  width: clamp(220px, 22vw, 310px);
+  height: auto;
 }
 
 .hero-machine {
@@ -104,6 +103,12 @@
 .machine-photo:nth-child(3) img { object-position: 50% 50%; }
 .machine-photo:nth-child(4) img { object-position: 50% 46%; }
 
+@media (max-width: 1120px) {
+  .brand-full-logo {
+    width: 230px;
+  }
+}
+
 @media (max-width: 980px) {
   .hero-machine {
     max-width: 760px;
@@ -116,9 +121,8 @@
 }
 
 @media (max-width: 640px) {
-  .brand-logo {
-    width: 38px;
-    height: 38px;
+  .brand-full-logo {
+    width: 205px;
   }
 
   .hero-machine {
