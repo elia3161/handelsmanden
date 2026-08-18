@@ -1,3 +1,10 @@
+.brand-logo {
+  display: block;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+}
+
 .hero-machine {
   position: relative;
   margin: 0;
@@ -9,10 +16,20 @@
   transform: rotate(1.25deg);
 }
 
+.hero-machine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent 45%, rgba(8,10,7,.58));
+}
+
 .hero-machine::after {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 2;
   pointer-events: none;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
 }
@@ -23,12 +40,15 @@
   height: auto;
   aspect-ratio: 3 / 2;
   object-fit: cover;
+  filter: saturate(.82) contrast(1.04);
 }
 
 .hero-machine figcaption {
   position: absolute;
+  z-index: 3;
   left: 18px;
   bottom: 18px;
+  max-width: calc(100% - 36px);
   padding: 8px 11px;
   border: 1px solid rgba(244,240,231,.14);
   border-radius: 9px;
@@ -49,16 +69,26 @@
   background: var(--surface);
 }
 
+.machine-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.025);
+}
+
 .machine-photo img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform .35s ease;
+  filter: saturate(.84) contrast(1.03);
+  transition: transform .35s ease, filter .35s ease;
 }
 
 .machine-photo:hover img {
   transform: scale(1.025);
+  filter: saturate(.95) contrast(1.05);
 }
 
 .machine-photo.large {
@@ -68,6 +98,11 @@
 .machine-photo.wide {
   grid-column: span 2;
 }
+
+.machine-photo:nth-child(1) img { object-position: 50% 50%; }
+.machine-photo:nth-child(2) img { object-position: 50% 52%; }
+.machine-photo:nth-child(3) img { object-position: 50% 50%; }
+.machine-photo:nth-child(4) img { object-position: 50% 46%; }
 
 @media (max-width: 980px) {
   .hero-machine {
@@ -81,6 +116,11 @@
 }
 
 @media (max-width: 640px) {
+  .brand-logo {
+    width: 38px;
+    height: 38px;
+  }
+
   .hero-machine {
     border-radius: 20px;
   }
@@ -88,6 +128,7 @@
   .hero-machine figcaption {
     left: 12px;
     bottom: 12px;
+    max-width: calc(100% - 24px);
   }
 
   .machine-photo.wide {
