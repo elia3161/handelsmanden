@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Handelsmanden logo</title>
+  <rect width="64" height="64" rx="14" fill="#d8ff4f"/>
+  <path fill="#11130f" d="M15 14h9v14h16V14h9v36h-9V36H24v14h-9z"/>
+  <path fill="#11130f" d="M10 51h44v4H10z"/>
+  <circle cx="19" cy="53" r="4" fill="#11130f"/>
+  <circle cx="45" cy="53" r="4" fill="#11130f"/>
+</svg>
