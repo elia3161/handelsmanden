@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 72" role="img" aria-labelledby="title desc">
+  <title id="title">Handelsmanden.dk</title>
+  <desc id="desc">Handelsmanden.dk logo med stiliseret H-maskinmærke.</desc>
+  <rect x="2" y="4" width="64" height="64" rx="14" fill="#d8ff4f"/>
+  <path fill="#11130f" d="M17 18h9v14h16V18h9v36h-9V40H26v14h-9z"/>
+  <path fill="#11130f" d="M12 55h44v4H12z"/>
+  <circle cx="21" cy="57" r="4" fill="#11130f"/>
+  <circle cx="47" cy="57" r="4" fill="#11130f"/>
+  <text x="82" y="42" fill="#f4f0e7" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" letter-spacing="1.8">HANDELSMANDEN</text>
+  <text x="329" y="42" fill="#d8ff4f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">.DK</text>
+  <path d="M82 52h278" stroke="#f4f0e7" stroke-opacity=".18" stroke-width="1"/>
+</svg>
