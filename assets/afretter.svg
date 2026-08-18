@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration af træbearbejdningsmaskine</title>
+  <desc id="desc">Industriel illustration af en afretter eller tykkelseshøvl.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#252a22"/><stop offset="1" stop-color="#10120e"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#bg)"/><rect y="635" width="1200" height="165" fill="#171a15"/>
+  <g opacity=".13" fill="none" stroke="#d8ff4f" stroke-width="3"><path d="M0 155h1200M0 315h1200M0 475h1200"/><path d="M160 0v635M360 0v635M560 0v635M760 0v635M960 0v635"/></g>
+  <g transform="translate(115 185)">
+    <rect x="80" y="125" width="820" height="88" rx="16" fill="#a0aa96"/>
+    <path d="M245 210h510l-46 297H286z" fill="#41483c" stroke="#8d9784" stroke-width="5"/>
+    <rect x="300" y="264" width="390" height="94" rx="14" fill="#252a23"/>
+    <rect x="338" y="285" width="182" height="22" rx="8" fill="#d8ff4f"/>
+    <rect x="114" y="83" width="330" height="42" rx="10" fill="#5e6658"/>
+    <rect x="595" y="78" width="290" height="47" rx="10" fill="#5e6658"/>
+    <circle cx="625" cy="427" r="40" fill="#20241e" stroke="#d8ff4f" stroke-width="7"/>
+    <circle cx="625" cy="427" r="10" fill="#d8ff4f"/>
+    <rect x="305" y="492" width="55" height="100" rx="8" fill="#2c3129"/>
+    <rect x="644" y="492" width="55" height="100" rx="8" fill="#2c3129"/>
+  </g>
+  <text x="72" y="716" fill="#f4f0e7" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="4">TRÆBEARBEJDNING</text>
+</svg>
